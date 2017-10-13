@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vkleiko.runit">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name"
+        android:largeHeap="true" android:screenOrientation="portrait" android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MapsActivity" android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity android:name=".MainActivity" android:label="@string/title_activity_main" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AudioCoach" android:label="@string/title_audio_coach" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".BluetoothHDPActivity" android:label="Health device" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".WorkoutListActivity" android:label="@string/title_activity_workout_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WorkoutDataActivity" android:label="@string/title_activity_workout_data"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CreateWorkoutActivity" android:label="@string/title_activity_create_workout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.bluetooth.headset.action.AUDIO_STATE_CHANGED" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".BluetoothHDPService" />
+        <activity android:name=".WorkoutRouteList" android:label="@string/title_activity_workout_list_route"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+         App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <!--<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />-->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyByHbEly8s-c69RU6fRt54EPKTNF9U_GEg" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--<meta-data android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="@string/google_maps_key" />-->
+
+    </application>
+
+</manifest>

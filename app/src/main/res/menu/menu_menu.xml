@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_audiocoach"
+        android:title="@string/menu_audio_coach"
+        app:showAsAction="never"
+        android:layout_gravity="right"/>
+    <!--<item-->
+        <!--android:id="@+id/action_accessories"-->
+        <!--android:title="@string/menu_accessories"-->
+        <!--app:showAsAction="never"-->
+        <!--android:layout_below="@id/action_audiocoach"-->
+        <!--android:layout_gravity="right"/>-->
+</menu>
