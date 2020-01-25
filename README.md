@@ -33,11 +33,11 @@ Connect an Android device to your development machine.
 
 ### Permissions
 
-Full Network Access.
-View Network Connections.
-Location.
-Run at startup.
-Read and write access to external storage.
+- Full Network Access.
+- View Network Connections.
+- Location.
+- Run at startup.
+- Read and write access to external storage.
 
 
 
