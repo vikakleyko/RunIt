@@ -24,3 +24,23 @@ Connect an Android device to your development machine.
 
 * Select `Run -> Run 'app'` (or `Debug 'app'`) from the menu bar
 * Select the device you wish to run the app on and click 'OK'
+
+
+### Gradle
+
+* Install the debug APK on your device `./gradlew installDebug`
+* Start the APK: `<path to Android SDK>/platform-tools/adb -d shell am start io.keen.client.android.example/io.keen.client.android.example.MyActivity`
+
+### Permissions
+
+Full Network Access.
+View Network Connections.
+Location.
+Run at startup.
+Read and write access to external storage.
+
+## Using the RunIt App
+
+
+
+
