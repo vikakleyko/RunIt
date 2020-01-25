@@ -39,8 +39,6 @@ Location.
 Run at startup.
 Read and write access to external storage.
 
-## Using the RunIt App
-
 
 
 
