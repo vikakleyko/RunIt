@@ -1,7 +1,6 @@
 # RunIt
 
-Android application for running, cycling, walking tracking that lets user to record activities data (distance, time, etc),
- save route on the map, compare your performance over in real time with your best result by voice messages
+Android application for running, cycling, walking tracking, which allows the user to record activity data (distance, time, etc.), save the route on the map, compare your performance in real time with the best result using voice messages
 
 ### Android Studio (Recommended)
 
