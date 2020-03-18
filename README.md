@@ -2,6 +2,11 @@
 
 Android application for running, cycling, walking tracking, which allows the user to record activity data (distance, time, etc.), save the route on the map, compare your performance in real time with the best result using voice messages
 
+![IMG_20200317_200114](https://user-images.githubusercontent.com/24653549/76985321-5732ec80-6940-11ea-9911-e758f3f4b908.jpg)
+![test3](https://user-images.githubusercontent.com/24653549/76985318-569a5600-6940-11ea-9622-dca247cad3f3.jpg)
+![test4](https://user-images.githubusercontent.com/24653549/76985319-5732ec80-6940-11ea-8fe4-39e80aee7957.jpg)
+![test2](https://user-images.githubusercontent.com/24653549/76985323-5732ec80-6940-11ea-8384-8c08058f8b9b.jpg)
+
 ### Android Studio (Recommended)
 
 (These instructions were tested with Android Studio version 2.2.2, 2.2.3, 2.3, and 2.3.2)
